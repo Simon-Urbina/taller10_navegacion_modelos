@@ -1,0 +1,28 @@
+ul li {
+  list-style: none;
+}
+
+section {
+  min-height: 75vh;
+}
+
+i {
+  margin: 0 15px;
+}
+
+.no-encontrado {
+  font-size: 12rem;
+  font-weight: bold;
+}
+
+.tamano-icono {
+  font-size: 15rem;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.rojito{
+  color: red;
+}
