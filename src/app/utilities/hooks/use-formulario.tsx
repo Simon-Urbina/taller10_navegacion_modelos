@@ -1,4 +1,5 @@
 import { useState, ChangeEvent } from "react";
+import { Producto } from "../../models/Producto";
 
 export const useFormulario = <T extends Object> (objInicial: T) => {
 

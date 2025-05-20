@@ -1,0 +1,19 @@
+.footer-title {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+}
+.footer-link {
+    color: #ffffff;
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    transition: color 0.2s ease;
+}
+.footer-link:hover {
+    color: #fcb500;
+}
+.footer-info {
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
+    margin: 0.5rem 0;
+}
+.footer-credits {
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    color: #f7f7f7;
+}

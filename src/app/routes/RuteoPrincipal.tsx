@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
-import { CrearGato } from "../components/gato/CrearGato";
-import { ListarGato } from "../components/gato/ListarGato";
-import { AdministrarGato } from "../components/gato/AdministrarGato";
-import { EditarGato } from "../components/gato/EditarGato";
+import { CrearProducto } from "../components/producto/CrearProducto";
+import { ListarProducto } from "../components/producto/ListarProducto";
+import { AdministrarProducto } from "../components/producto/AdministrarProducto";
+import { EditarProducto } from "../components/producto/EditarProducto";
 import { Inicio } from "../components/contenedor/Inicio";
 import { Error } from "../components/contenedor/Error";
 
@@ -17,10 +17,10 @@ export const RuteoPrincipal = () => {
 
             <Route path="/home" element={<Inicio/>} />
             
-            <Route path="/cat/add" element={<CrearGato/>} />
-            <Route path="/cat/list" element={<ListarGato/>} />
-            <Route path="/cat/manage" element={<AdministrarGato/>} />
-            <Route path="/cat/update" element={<EditarGato/>} />
+            <Route path="/product/add" element={<CrearProducto/>} />
+            <Route path="/product/list" element={<ListarProducto/>} />
+            <Route path="/product/manage" element={<AdministrarProducto/>} />
+            <Route path="/product/update/:codProducto" element={<EditarProducto/>} />
 
         </Routes>
     );
