@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import XIcon from "../../../assets/images/X (formerly Twitter)_dark.svg";
 import TikTokIcon from "../../../assets/images/tiktok.svg";
@@ -75,3 +76,13 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
+=======
+export const Footer = () => {
+    return (
+        <footer className="mt-5 py-5 text-center text-white bg-dark">
+            <p className="fw-semibold text-white">Universidad Santo Tomás &copy; 2025</p>
+            <p className="mb-0 text-white">Facultad de Ingeniería de Sistemas</p>
+        </footer>
+    );
+}
+>>>>>>> 25260569bcae36f403ab5c8576261d9f0bb7588c
